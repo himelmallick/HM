@@ -1,0 +1,11 @@
+Package: HM
+Title: Himel Mallick's R Codes
+Version: 0.0.1
+Date: 2018-09-11
+Author: Himel Mallick <hmallick@hsph.harvard.edu>
+Maintainer: Himel Mallick <hmallick@hsph.harvard.edu>
+Description: Miscellaneous utility functions for day-to-day statistical analysis.
+Depends: R (>= 3.5.1), devtools, roxygen2
+License: MIT
+LazyData: TRUE
+RoxygenNote: 6.1.0.9000
