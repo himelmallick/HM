@@ -5,13 +5,16 @@
 \title{Himel Mallick's R Code}
 \usage{
 genericPackageBuilder(packageName,
-  parentDirectory = "/Users/Home/Dropbox (Personal)/Repos/")
+  parentDirectory = "/Users/Home/Dropbox (Personal)/Repos/",
+  build_vignettes = FALSE)
 }
 \arguments{
 \item{packageName}{Name of the R package you are trying to build. Assumes that all necessary files are in place.}
 
 \item{parentDirectory}{Parent directory where the package folder is located.
 Must be modified accordingly.}
+
+\item{build_vignettes}{Build vignette document? Default is FALSE.}
 }
 \description{
 Builds an R package and adds necessary documentation.
