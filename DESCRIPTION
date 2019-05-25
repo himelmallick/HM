@@ -8,4 +8,4 @@ Description: Miscellaneous utility functions for day-to-day statistical analysis
 Depends: R (>= 3.5.1), devtools, roxygen2
 License: MIT
 LazyData: TRUE
-RoxygenNote: 6.1.0.9000
+RoxygenNote: 6.1.1

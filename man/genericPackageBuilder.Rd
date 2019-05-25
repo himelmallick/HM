@@ -5,7 +5,7 @@
 \title{Himel Mallick's R Code}
 \usage{
 genericPackageBuilder(packageName,
-  parentDirectory = "/Users/hmallick/Dropbox (Personal)/Repos/")
+  parentDirectory = "/Users/Home/Dropbox (Personal)/Repos/")
 }
 \arguments{
 \item{packageName}{Name of the R package you are trying to build. Assumes that all necessary files are in place.}
