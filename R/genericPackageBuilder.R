@@ -8,10 +8,17 @@
 #' @export
 genericPackageBuilder<-function(packageName,
                                 parentDirectory = '/Users/Home/Dropbox (Personal)/Repos/',
-                                build_vignettes = FALSE){
+                                build_vignette = FALSE){
   setwd(paste(parentDirectory, packageName, sep = ''))
   devtools::document()
   setwd('..')
-  devtools::install(packageName, build_vignettes = build_vignettes)
+  devtools::install(packageName)
+  if (build_vignette)   {  
+    vignette_path<-paste(parentDirectory, packageName, '/vignettes', sep = '')
+    if (!file.exists(vignette_path)) {
+      dir.create(vignette_path)
+      }
+    devtools::build_manual(packageName, vignette_path)
+  }
 }
 

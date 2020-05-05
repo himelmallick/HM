@@ -6,7 +6,7 @@
 \usage{
 genericPackageBuilder(packageName,
   parentDirectory = "/Users/Home/Dropbox (Personal)/Repos/",
-  build_vignettes = FALSE)
+  build_vignettes = TRUE)
 }
 \arguments{
 \item{packageName}{Name of the R package you are trying to build. Assumes that all necessary files are in place.}
