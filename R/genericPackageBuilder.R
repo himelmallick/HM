@@ -8,7 +8,7 @@
 #' @export
 genericPackageBuilder<-function(packageName,
                                 parentDirectory = '/Users/Home/Dropbox (Personal)/Repos/',
-                                build_vignette = FALSE){
+                                build_vignette = TRUE){
   setwd(paste(parentDirectory, packageName, sep = ''))
   devtools::document()
   setwd('..')
