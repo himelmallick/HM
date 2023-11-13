@@ -7,7 +7,7 @@
 #' @param build_vignettes Build vignette document? Default is FALSE.
 #' @export
 genericPackageBuilder<-function(packageName,
-                                parentDirectory = '/Users/Home/Dropbox (Personal)/Repos/',
+                                parentDirectory = '/Users/himelmallick/Library/CloudStorage/Dropbox/Repos/',
                                 build_vignette = TRUE){
   setwd(paste(parentDirectory, packageName, sep = ''))
   devtools::document()

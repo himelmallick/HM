@@ -4,9 +4,11 @@
 \alias{genericPackageBuilder}
 \title{Himel Mallick's R Code}
 \usage{
-genericPackageBuilder(packageName,
-  parentDirectory = "/Users/Home/Dropbox (Personal)/Repos/",
-  build_vignettes = TRUE)
+genericPackageBuilder(
+  packageName,
+  parentDirectory = "/Users/himelmallick/Library/CloudStorage/Dropbox/Repos/",
+  build_vignette = TRUE
+)
 }
 \arguments{
 \item{packageName}{Name of the R package you are trying to build. Assumes that all necessary files are in place.}
